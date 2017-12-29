@@ -14,13 +14,14 @@
                         <div align="center">
                             <img class="thumbnail img-responsive" src="{{ $user->avatar }}" width="300px" height="300px">
                         </div>
-                    <div class="media-body">
-                        <hr>
-                        <h4><strong>个人简介</strong></h4>
-                        <p>{{ $user->introduction }}</p>
-                        <hr>
-                        <h4><strong>注册于</strong></h4>
-                        <p>{{ $user->created_at->diffForHumans() }}</p>
+                        <div class="media-body">
+                            <hr>
+                            <h4><strong>个人简介</strong></h4>
+                            <p>{{ $user->introduction }}</p>
+                            <hr>
+                            <h4><strong>注册于</strong></h4>
+                            <p>{{ $user->created_at->diffForHumans() }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
