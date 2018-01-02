@@ -59,5 +59,10 @@
         "sort-packages": true,
         "optimize-autoloader": true,
         "secure-http": false
-    }
+    },
+    "repositories": [
+        {"type": "composer", "url": "http://toran.isd.com/repo/private/"},
+        {"type": "composer", "url": "http://toran.isd.com/repo/packagist/"},
+        {"packagist": false}
+    ]
 }
